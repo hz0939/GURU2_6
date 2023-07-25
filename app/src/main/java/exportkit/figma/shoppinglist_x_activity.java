@@ -28,8 +28,7 @@ import com.example.guru2_9.R;
 
 	public class shoppinglist_x_activity extends Activity {
 
-	
-	private View _bg__shoppinglist_x;
+
 	private ImageView background;
 	private ImageView backicon4;
 	private ImageView __img___t40;
@@ -42,8 +41,7 @@ import com.example.guru2_9.R;
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.shoppinglist_x);
 
-		
-		_bg__shoppinglist_x = (View) findViewById(R.id._bg__shoppinglist_x);
+
 		background = (ImageView) findViewById(R.id.background);
 		backicon4 = (ImageView) findViewById(R.id.backicon4);
 		__img___t40 = (ImageView) findViewById(R.id.__img___t40);

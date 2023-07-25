@@ -1,3 +1,4 @@
+
 package com.example.guru2_9
 
 import android.annotation.SuppressLint
@@ -6,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.widget.EditText
 import android.widget.TextView
 
-class shoppinglist : AppCompatActivity() {
+class shoppinglist_xactivity : AppCompatActivity() {
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
