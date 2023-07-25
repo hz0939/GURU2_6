@@ -1,3 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">GURU2_9</string>
+	<!-- profileedit_x strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="t58ttt_string"> </string>
+	<string name="t57ttt_string"></string>
+	<string name="t56ttt_string">  </string>
+	<string name="t55ttt_string"></string>
+	<string name="t54ttt_string"> </string>
+	<string name="t53ttt_string"> </string>
 </resources>
