@@ -30,13 +30,14 @@
 				android:layout_width="360dp"
 				android:layout_height="1212dp" />
 
-			<ImageView android:id="@+id/thumbnail_weather1_"
-				android:src="@drawable/thumbnail_weather1_"
-				android:contentDescription="thumbnail_weather1_"
-				 android:layout_marginStart="180dp"
-				android:layout_marginTop="115dp"
+			<ImageView
+				android:id="@+id/thumbnail_weather1_"
 				android:layout_width="160dp"
-				android:layout_height="160dp" />
+				android:layout_height="160dp"
+				android:layout_marginStart="180dp"
+				android:layout_marginTop="115dp"
+				android:contentDescription="thumbnail_weather1_"
+				android:src="@drawable/thumbnail_weather1_" />
 
 			<ImageView android:id="@+id/thumbnailtop3_"
 				android:src="@drawable/thumbnailtop3_"
