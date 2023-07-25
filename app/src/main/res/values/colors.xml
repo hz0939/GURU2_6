@@ -18,4 +18,40 @@
 	<color name="t58ttt_color">#121212</color>
 	<color name="rectangle_38_color">#ffffff</color>
 	<color name="t56ttt_color">#000000</color>
+	<color name="_bg__login_color">#FFFFFF</color>
+	<color name="rectangle_3_color">#FF6341</color>
+	<color name="t5ttt_color">#000000</color>
+	<color name="t2ttt_color">#A2A2A2</color>
+	<color name="_bg__memberjoinsucces_color">#FFFFFF</color>
+	<color name="_bg__recipebook2_x_color">#FFFFFF</color>
+	<color name="rectangle_33_color">#F5F5F5</color>
+	<color name="ellipse_1_color">#EDEDED</color>
+	<color name="t43ttt_color">#000000</color>
+	<color name="_bg__shoppinglist_x_color">#FFFFFF</color>
+	<color name="_bg__mainpage_x_color">#FFFFFF</color>
+	<color name="rectangle_25_color">#FF6341</color>
+	<color name="rectangle_23_color">#A2A2A2</color>
+	<color name="hometext_black_color">#000000</color>
+	<color name="_bg__memberjoin2_color">#FFFFFF</color>
+	<color name="t20ttt_color">#000000</color>
+	<color name="rectangle_9_color">#FF6341</color>
+	<color name="_bg__mypage_color">#FFFFFF</color>
+	<color name="ellipse_3_color">#ffffff</color>
+	<color name="t52ttt_color">#000000</color>
+	<color name="t47ttt_color">#121212</color>
+	<color name="rectangle_34_color">#FF6341</color>
+	<color name="rectangle_35_color">#F5F5F5</color>
+
+	<color name="_bg__recipebook1_color">#FFFFFF</color>
+	<color name="t42ttt_color">#A2A2A2</color>
+	<color name="f12ttt_color">#000000</color>
+	<color name="_bg__memberjoin1_color">#FFFFFF</color>
+	<color name="t14ttt_color">#000000</color>
+	<color name="t9ttt_color">#A2A2A2</color>
+	<color name="_bg__memberjoin3_color">#FFFFFF</color>
+	<color name="rectangle_17_color">#FF6341</color>
+	<color name="t33ttt_color">#000000</color>
+	
+	<color name="ellipse_2_color">#FF6341</color>
+
 </resources>
