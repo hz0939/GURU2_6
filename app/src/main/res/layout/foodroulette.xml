@@ -53,13 +53,14 @@
 				android:layout_width="163dp"
 				android:layout_height="77dp" />
 
-			<ImageView android:id="@+id/__img___roulette2"
-				android:src="@drawable/__img___roulette2"
-				android:contentDescription="__img___roulette2"
-				 android:layout_marginStart="22dp"
-				android:layout_marginTop="189dp"
+			<ImageView
+				android:id="@+id/__img___roulette2"
 				android:layout_width="316.78dp"
-				android:layout_height="316.78dp" />
+				android:layout_height="316.78dp"
+				android:layout_marginStart="22dp"
+				android:layout_marginTop="189dp"
+				android:contentDescription="__img___roulette2"
+				android:src="@drawable/__img___roulette2" />
 
 			<ImageView android:id="@+id/__img___roulette1"
 				android:src="@drawable/__img___roulette1"

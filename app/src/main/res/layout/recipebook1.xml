@@ -23,12 +23,13 @@
 			android:layout_width="wrap_content" 
 			android:layout_height="wrap_content" >
 
-			<View   android:id="@+id/_bg__recipebook1"
-				android:background="@drawable/_bg__recipebook1_shape"
-				 android:layout_marginStart="0dp"
-				android:layout_marginTop="0dp"
+			<View
+				android:id="@+id/_bg__recipebook1"
 				android:layout_width="360dp"
-				android:layout_height="640dp" />
+				android:layout_height="640dp"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:background="@drawable/_bg__recipebook1_shape" />
 
 			<View   android:id="@+id/rectangle_26"
 				android:background="@drawable/rectangle_26_shape"
