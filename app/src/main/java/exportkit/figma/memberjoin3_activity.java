@@ -25,7 +25,9 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class memberjoin3_activity extends Activity {
+import com.example.guru2_9.R;
+
+	public class memberjoin3_activity extends Activity {
 
 	
 	private View _bg__memberjoin3;

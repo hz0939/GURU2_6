@@ -25,7 +25,9 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class profileedit_x_activity extends Activity {
+import com.example.guru2_9.R;
+
+	public class profileedit_x_activity extends Activity {
 
 	
 	private View _bg__profileedit_x;

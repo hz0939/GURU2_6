@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "39693009894",
+    "project_id": "fir-guru-47083",
+    "storage_bucket": "fir-guru-47083.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39693009894:android:1233b8e77eb54b250e8c27",
+        "android_client_info": {
+          "package_name": "com.example.guru2_9"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39693009894-5ret6vmrdusdrhecdiqvqhdbh7fn7a4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB1CSCdSKwauVoNICeoYmyoaUhncWmuTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39693009894-5ret6vmrdusdrhecdiqvqhdbh7fn7a4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

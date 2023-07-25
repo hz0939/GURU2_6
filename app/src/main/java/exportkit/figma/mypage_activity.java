@@ -25,7 +25,9 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.ImageView;
 
-public class mypage_activity extends Activity {
+import com.example.guru2_9.R;
+
+	public class mypage_activity extends Activity {
 
 	
 	private View _bg__mypage;

@@ -1,45 +1,45 @@
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
-	<!-- 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		mypage
-	 *	@date 		Tuesday 25th of July 2023 02:02:37 AM
-	 *	@title 		Page 1
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.3.figma
-	 *
-	 */
-	-->
-	<ScrollView android:id="@+id/mypage" 
-		android:layout_width="wrap_content" 
+	<!--
+    /*
+     *   This content is generated from the API File Info.
+     *   (Alt+Shift+Ctrl+I).
+     *
+     *   @desc
+     *   @file       mypage
+     *   @date       Tuesday 25th of July 2023 02:02:37 AM
+     *   @title       Page 1
+     *   @author
+     *   @keywords
+     *   @generator    Export Kit v1.3.figma
+     *
+     */
+    -->
+	<ScrollView android:id="@+id/mypage"
+		android:layout_width="wrap_content"
 		android:layout_height="match_parent" >
 
-		<RelativeLayout android:id="@+id/content_container" 
-			android:layout_width="wrap_content" 
+		<RelativeLayout android:id="@+id/content_container"
+			android:layout_width="wrap_content"
 			android:layout_height="wrap_content" >
 
 			<View   android:id="@+id/_bg__mypage"
 				android:background="@drawable/_bg__mypage_shape"
-				 android:layout_marginStart="0dp"
+				android:layout_marginStart="0dp"
 				android:layout_marginTop="0dp"
 				android:layout_width="360dp"
 				android:layout_height="750dp" />
 
 			<View   android:id="@+id/ellipse_3"
 				android:background="@drawable/ellipse_3_shape"
-				 android:layout_marginStart="-57dp"
+				android:layout_marginStart="-57dp"
 				android:layout_marginTop="-118dp"
 				android:layout_width="484dp"
 				android:layout_height="398dp" />
 
 			<View   android:id="@+id/rectangle_36"
 				android:background="@drawable/rectangle_36_shape"
-				 android:layout_marginStart="191dp"
+				android:layout_marginStart="191dp"
 				android:layout_marginTop="149dp"
 				android:layout_width="65dp"
 				android:layout_height="25dp" />
@@ -54,7 +54,7 @@
 				android:layout_width="66dp"
 				android:layout_height="33dp"
 				android:text="@string/t52ttt_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/t51ttt"
 				android:fontFamily="Noto Sans"
@@ -66,7 +66,7 @@
 				android:layout_width="66dp"
 				android:layout_height="33dp"
 				android:text="@string/t51ttt_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/t50ttt"
 				android:fontFamily="Noto Sans"
@@ -78,7 +78,7 @@
 				android:layout_width="66dp"
 				android:layout_height="33dp"
 				android:text="@string/t50ttt_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/t49ttt"
 				android:fontFamily="Noto Sans"
@@ -89,7 +89,7 @@
 				android:layout_width="90dp"
 				android:layout_height="24dp"
 				android:text="@string/t49ttt_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/t48ttt"
 				android:fontFamily="Noto Sans"
@@ -100,12 +100,12 @@
 				android:layout_width="40dp"
 				android:layout_height="24dp"
 				android:text="@string/t48ttt_string"
-				 />
+				/>
 
 			<ImageView android:id="@+id/backicon8"
 				android:src="@drawable/backicon8"
 				android:contentDescription="backicon8"
-				 android:layout_marginStart="13dp"
+				android:layout_marginStart="13dp"
 				android:layout_marginTop="44dp"
 				android:layout_width="27dp"
 				android:layout_height="27dp" />
@@ -120,11 +120,11 @@
 				android:layout_width="95dp"
 				android:layout_height="33dp"
 				android:text="@string/t47ttt_string"
-				 />
+				/>
 
 			<View   android:id="@+id/rectangle_34"
 				android:background="@drawable/rectangle_34_shape"
-				 android:layout_marginStart="191dp"
+				android:layout_marginStart="191dp"
 				android:layout_marginTop="185dp"
 				android:layout_width="69dp"
 				android:layout_height="26dp" />
@@ -139,7 +139,7 @@
 				android:layout_width="76dp"
 				android:layout_height="24dp"
 				android:text="@string/t46ttt_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/t45ttt"
 				android:fontFamily="Noto Sans"
@@ -151,7 +151,7 @@
 				android:layout_width="71dp"
 				android:layout_height="29dp"
 				android:text="@string/t45ttt_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/t44ttt"
 				android:fontFamily="Noto Sans"
@@ -163,18 +163,18 @@
 				android:layout_width="71dp"
 				android:layout_height="29dp"
 				android:text="@string/t44ttt_string"
-				 />
+				/>
 
 			<View   android:id="@+id/rectangle_35"
 				android:background="@drawable/rectangle_35_shape"
-				 android:layout_marginStart="20dp"
+				android:layout_marginStart="20dp"
 				android:layout_marginTop="295dp"
 				android:layout_width="320dp"
 				android:layout_height="160dp" />
 
 			<View   android:id="@+id/rectangle_342"
 				android:background="@drawable/rectangle_342_shape"
-				 android:layout_marginStart="20dp"
+				android:layout_marginStart="20dp"
 				android:layout_marginTop="482dp"
 				android:layout_width="320dp"
 				android:layout_height="160dp" />
@@ -182,7 +182,7 @@
 			<ImageView android:id="@+id/myicon"
 				android:src="@drawable/myicon"
 				android:contentDescription="myicon"
-				 android:layout_marginStart="56dp"
+				android:layout_marginStart="56dp"
 				android:layout_marginTop="110dp"
 				android:layout_width="108dp"
 				android:layout_height="108dp" />

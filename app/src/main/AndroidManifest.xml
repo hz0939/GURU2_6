@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-	package="exportkit.figma" >
+	package="com.example.guru2_9">
 
-	
+
+	<uses-permission android:name="android.permission.INTERNET"/>
 
 	<application
 		android:allowBackup="true"
 		android:theme="@style/AppTheme"
-		android:label="@string/app_name" >
+		android:label="page 1" >
+
 		<activity
-		android:name=".profileedit_x_activity"
+		android:name=".loginactivity"
 		android:configChanges="orientation|keyboardHidden|screenSize"
-		android:label="@string/app_name"
+		android:label="로그인 페이지"
 		android:exported="true"  >
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 		</activity>
+
+		<activity
+			android:name=".memberjoinactivity1"
+			android:label="회원가입 페이지"
+			android:exported="true" />
+
+		<activity
+			android:name=".MainActivity"
+			android:label="Home"
+			android:exported="true" />
 
 	</application>
 

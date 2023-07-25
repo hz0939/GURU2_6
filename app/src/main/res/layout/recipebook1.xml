@@ -1,26 +1,26 @@
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
-	<!-- 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		recipebook1
-	 *	@date 		Tuesday 25th of July 2023 02:02:03 AM
-	 *	@title 		Page 1
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.3.figma
-	 *
-	 */
-	-->
-	<ScrollView android:id="@+id/recipebook1" 
-		android:layout_width="wrap_content" 
+	<!--
+    /*
+     *   This content is generated from the API File Info.
+     *   (Alt+Shift+Ctrl+I).
+     *
+     *   @desc
+     *   @file       recipebook1
+     *   @date       Tuesday 25th of July 2023 02:02:03 AM
+     *   @title       Page 1
+     *   @author
+     *   @keywords
+     *   @generator    Export Kit v1.3.figma
+     *
+     */
+    -->
+	<ScrollView android:id="@+id/recipebook1"
+		android:layout_width="wrap_content"
 		android:layout_height="match_parent" >
 
-		<RelativeLayout android:id="@+id/content_container" 
-			android:layout_width="wrap_content" 
+		<RelativeLayout android:id="@+id/content_container"
+			android:layout_width="wrap_content"
 			android:layout_height="wrap_content" >
 
 			<View
@@ -33,7 +33,7 @@
 
 			<View   android:id="@+id/rectangle_26"
 				android:background="@drawable/rectangle_26_shape"
-				 android:layout_marginStart="47dp"
+				android:layout_marginStart="47dp"
 				android:layout_marginTop="36dp"
 				android:layout_width="295dp"
 				android:layout_height="46dp" />
@@ -41,7 +41,7 @@
 			<ImageView android:id="@+id/backicon5"
 				android:src="@drawable/backicon5"
 				android:contentDescription="backicon5"
-				 android:layout_marginStart="13dp"
+				android:layout_marginStart="13dp"
 				android:layout_marginTop="44dp"
 				android:layout_width="27dp"
 				android:layout_height="27dp" />
@@ -49,7 +49,7 @@
 			<ImageView android:id="@+id/searchicon1"
 				android:src="@drawable/searchicon1"
 				android:contentDescription="searchicon1"
-				 android:layout_marginStart="311dp"
+				android:layout_marginStart="311dp"
 				android:layout_marginTop="51dp"
 				android:layout_width="17dp"
 				android:layout_height="17dp" />
@@ -63,7 +63,7 @@
 				android:layout_width="182dp"
 				android:layout_height="24dp"
 				android:text="@string/t42ttt_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/f12ttt"
 				android:fontFamily="Noto Sans"
@@ -74,7 +74,7 @@
 				android:layout_width="40dp"
 				android:layout_height="24dp"
 				android:text="@string/f12ttt_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/f11ttt"
 				android:fontFamily="Noto Sans"
@@ -85,7 +85,7 @@
 				android:layout_width="40dp"
 				android:layout_height="24dp"
 				android:text="@string/f11ttt_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/f10ttt"
 				android:fontFamily="Noto Sans"
@@ -96,7 +96,7 @@
 				android:layout_width="40dp"
 				android:layout_height="24dp"
 				android:text="@string/f10ttt_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/f9ttt"
 				android:fontFamily="Noto Sans"
@@ -107,7 +107,7 @@
 				android:layout_width="40dp"
 				android:layout_height="24dp"
 				android:text="@string/f9ttt_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/f8ttt"
 				android:fontFamily="Noto Sans"
@@ -118,7 +118,7 @@
 				android:layout_width="51dp"
 				android:layout_height="24dp"
 				android:text="@string/f8ttt_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/f7ttt"
 				android:fontFamily="Noto Sans"
@@ -129,7 +129,7 @@
 				android:layout_width="40dp"
 				android:layout_height="24dp"
 				android:text="@string/f7ttt_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/f6ttt"
 				android:fontFamily="Noto Sans"
@@ -140,7 +140,7 @@
 				android:layout_width="40dp"
 				android:layout_height="24dp"
 				android:text="@string/f6ttt_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/f5ttt"
 				android:fontFamily="Noto Sans"
@@ -151,7 +151,7 @@
 				android:layout_width="62dp"
 				android:layout_height="24dp"
 				android:text="@string/f5ttt_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/f4ttt"
 				android:fontFamily="Noto Sans"
@@ -162,7 +162,7 @@
 				android:layout_width="62dp"
 				android:layout_height="24dp"
 				android:text="@string/f4ttt_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/f3ttt"
 				android:fontFamily="Noto Sans"
@@ -173,7 +173,7 @@
 				android:layout_width="51dp"
 				android:layout_height="24dp"
 				android:text="@string/f3ttt_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/f2ttt"
 				android:fontFamily="Noto Sans"
@@ -184,7 +184,7 @@
 				android:layout_width="40dp"
 				android:layout_height="24dp"
 				android:text="@string/f2ttt_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/f1ttt"
 				android:fontFamily="Noto Sans"
@@ -195,7 +195,7 @@
 				android:layout_width="40dp"
 				android:layout_height="24dp"
 				android:text="@string/f1ttt_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/t41ttt"
 				android:fontFamily="Noto Sans"
@@ -207,12 +207,12 @@
 				android:layout_width="66dp"
 				android:layout_height="33dp"
 				android:text="@string/t41ttt_string"
-				 />
+				/>
 
 			<ImageView android:id="@+id/__img___food12"
 				android:src="@drawable/__img___food12"
 				android:contentDescription="__img___food12"
-				 android:layout_marginStart="27dp"
+				android:layout_marginStart="27dp"
 				android:layout_marginTop="132dp"
 				android:layout_width="88dp"
 				android:layout_height="88dp" />
@@ -220,7 +220,7 @@
 			<ImageView android:id="@+id/__img___food11"
 				android:src="@drawable/__img___food11"
 				android:contentDescription="__img___food11"
-				 android:layout_marginStart="244dp"
+				android:layout_marginStart="244dp"
 				android:layout_marginTop="132dp"
 				android:layout_width="88dp"
 				android:layout_height="88dp" />
@@ -228,7 +228,7 @@
 			<ImageView android:id="@+id/__img___food10"
 				android:src="@drawable/__img___food10"
 				android:contentDescription="__img___food10"
-				 android:layout_marginStart="137dp"
+				android:layout_marginStart="137dp"
 				android:layout_marginTop="132dp"
 				android:layout_width="88dp"
 				android:layout_height="88dp" />
@@ -236,7 +236,7 @@
 			<ImageView android:id="@+id/__img___food9"
 				android:src="@drawable/__img___food9"
 				android:contentDescription="__img___food9"
-				 android:layout_marginStart="27dp"
+				android:layout_marginStart="27dp"
 				android:layout_marginTop="260dp"
 				android:layout_width="88dp"
 				android:layout_height="88dp" />
@@ -244,7 +244,7 @@
 			<ImageView android:id="@+id/__img___food8"
 				android:src="@drawable/__img___food8"
 				android:contentDescription="__img___food8"
-				 android:layout_marginStart="137dp"
+				android:layout_marginStart="137dp"
 				android:layout_marginTop="260dp"
 				android:layout_width="88dp"
 				android:layout_height="88dp" />
@@ -252,7 +252,7 @@
 			<ImageView android:id="@+id/__img___food7"
 				android:src="@drawable/__img___food7"
 				android:contentDescription="__img___food7"
-				 android:layout_marginStart="244dp"
+				android:layout_marginStart="244dp"
 				android:layout_marginTop="260dp"
 				android:layout_width="88dp"
 				android:layout_height="88dp" />
@@ -260,7 +260,7 @@
 			<ImageView android:id="@+id/__img___food6"
 				android:src="@drawable/__img___food6"
 				android:contentDescription="__img___food6"
-				 android:layout_marginStart="27dp"
+				android:layout_marginStart="27dp"
 				android:layout_marginTop="388dp"
 				android:layout_width="88dp"
 				android:layout_height="88dp" />
@@ -268,7 +268,7 @@
 			<ImageView android:id="@+id/__img___food5"
 				android:src="@drawable/__img___food5"
 				android:contentDescription="__img___food5"
-				 android:layout_marginStart="137dp"
+				android:layout_marginStart="137dp"
 				android:layout_marginTop="388dp"
 				android:layout_width="88dp"
 				android:layout_height="88dp" />
@@ -276,7 +276,7 @@
 			<ImageView android:id="@+id/__img___food4"
 				android:src="@drawable/__img___food4"
 				android:contentDescription="__img___food4"
-				 android:layout_marginStart="244dp"
+				android:layout_marginStart="244dp"
 				android:layout_marginTop="388dp"
 				android:layout_width="88dp"
 				android:layout_height="88dp" />
@@ -284,7 +284,7 @@
 			<ImageView android:id="@+id/__img___food3"
 				android:src="@drawable/__img___food3"
 				android:contentDescription="__img___food3"
-				 android:layout_marginStart="27dp"
+				android:layout_marginStart="27dp"
 				android:layout_marginTop="516dp"
 				android:layout_width="88dp"
 				android:layout_height="88dp" />
@@ -292,7 +292,7 @@
 			<ImageView android:id="@+id/__img___food2"
 				android:src="@drawable/__img___food2"
 				android:contentDescription="__img___food2"
-				 android:layout_marginStart="137dp"
+				android:layout_marginStart="137dp"
 				android:layout_marginTop="516dp"
 				android:layout_width="88dp"
 				android:layout_height="88dp" />
@@ -300,7 +300,7 @@
 			<ImageView android:id="@+id/__img___food1"
 				android:src="@drawable/__img___food1"
 				android:contentDescription="__img___food1"
-				 android:layout_marginStart="244dp"
+				android:layout_marginStart="244dp"
 				android:layout_marginTop="516dp"
 				android:layout_width="88dp"
 				android:layout_height="88dp" />

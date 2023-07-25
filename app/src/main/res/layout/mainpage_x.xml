@@ -15,17 +15,17 @@
 	 *
 	 */
 	-->
-	<ScrollView android:id="@+id/mainpage_x" 
-		android:layout_width="wrap_content" 
+	<ScrollView android:id="@+id/mainpage_x"
+		android:layout_width="wrap_content"
 		android:layout_height="match_parent" >
 
-		<RelativeLayout android:id="@+id/content_container" 
-			android:layout_width="wrap_content" 
+		<RelativeLayout android:id="@+id/content_container"
+			android:layout_width="wrap_content"
 			android:layout_height="wrap_content" >
 
 			<View   android:id="@+id/_bg__mainpage_x"
 				android:background="@drawable/_bg__mainpage_x_shape"
-				 android:layout_marginStart="0dp"
+				android:layout_marginStart="0dp"
 				android:layout_marginTop="0dp"
 				android:layout_width="360dp"
 				android:layout_height="1212dp" />
@@ -42,7 +42,7 @@
 			<ImageView android:id="@+id/thumbnailtop3_"
 				android:src="@drawable/thumbnailtop3_"
 				android:contentDescription="thumbnailtop3_"
-				 android:layout_marginStart="7dp"
+				android:layout_marginStart="7dp"
 				android:layout_marginTop="658dp"
 				android:layout_width="344dp"
 				android:layout_height="189dp" />
@@ -50,7 +50,7 @@
 			<ImageView android:id="@+id/thumbnailtop2_"
 				android:src="@drawable/thumbnailtop2_"
 				android:contentDescription="thumbnailtop2_"
-				 android:layout_marginStart="2dp"
+				android:layout_marginStart="2dp"
 				android:layout_marginTop="475dp"
 				android:layout_width="350dp"
 				android:layout_height="198dp" />
@@ -58,7 +58,7 @@
 			<ImageView android:id="@+id/thumbnailtop1_"
 				android:src="@drawable/thumbnailtop1_"
 				android:contentDescription="thumbnailtop1_"
-				 android:layout_marginStart="8dp"
+				android:layout_marginStart="8dp"
 				android:layout_marginTop="301dp"
 				android:layout_width="350dp"
 				android:layout_height="188dp" />
@@ -66,7 +66,7 @@
 			<ImageView android:id="@+id/thumbnailtop4_"
 				android:src="@drawable/thumbnailtop4_"
 				android:contentDescription="thumbnailtop4_"
-				 android:layout_marginStart="-22dp"
+				android:layout_marginStart="-22dp"
 				android:layout_marginTop="843dp"
 				android:layout_width="404dp"
 				android:layout_height="172dp" />
@@ -74,7 +74,7 @@
 			<ImageView android:id="@+id/thumbnailtop5_2"
 				android:src="@drawable/thumbnailtop5_2"
 				android:contentDescription="thumbnailtop5_2"
-				 android:layout_marginStart="14dp"
+				android:layout_marginStart="14dp"
 				android:layout_marginTop="1015dp"
 				android:layout_width="338dp"
 				android:layout_height="182dp" />
@@ -82,21 +82,21 @@
 			<ImageView android:id="@+id/bookmark6"
 				android:src="@drawable/bookmark6"
 				android:contentDescription="bookmark6"
-				 android:layout_marginStart="298dp"
+				android:layout_marginStart="298dp"
 				android:layout_marginTop="624dp"
 				android:layout_width="24dp"
 				android:layout_height="24dp" />
 
 			<View   android:id="@+id/rectangle_25"
 				android:background="@drawable/rectangle_25_shape"
-				 android:layout_marginStart="20dp"
+				android:layout_marginStart="20dp"
 				android:layout_marginTop="115dp"
 				android:layout_width="160dp"
 				android:layout_height="160dp" />
 
 			<View   android:id="@+id/rectangle_24"
 				android:background="@drawable/rectangle_24_shape"
-				 android:layout_marginStart="0dp"
+				android:layout_marginStart="0dp"
 				android:layout_marginTop="572dp"
 				android:layout_width="360dp"
 				android:layout_height="76dp" />
@@ -111,7 +111,7 @@
 				android:layout_width="99dp"
 				android:layout_height="33dp"
 				android:text="@string/t38ttt_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/t37ttt"
 				android:fontFamily="Noto Sans"
@@ -122,7 +122,7 @@
 				android:layout_width="109dp"
 				android:layout_height="41dp"
 				android:text="@string/t37ttt_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/t36ttt"
 				android:fontFamily="Noto Sans"
@@ -134,11 +134,11 @@
 				android:layout_width="80dp"
 				android:layout_height="33dp"
 				android:text="@string/t36ttt_string"
-				 />
+				/>
 
 			<View   android:id="@+id/rectangle_23"
 				android:background="@drawable/rectangle_23_shape"
-				 android:layout_marginStart="349dp"
+				android:layout_marginStart="349dp"
 				android:layout_marginTop="246dp"
 				android:layout_width="3dp"
 				android:layout_height="51dp" />
@@ -146,7 +146,7 @@
 			<ImageView android:id="@+id/yocipe_logo2"
 				android:src="@drawable/yocipe_logo2"
 				android:contentDescription="yocipe_logo2"
-				 android:layout_marginStart="132dp"
+				android:layout_marginStart="132dp"
 				android:layout_marginTop="-5dp"
 				android:layout_width="109dp"
 				android:layout_height="109dp" />
@@ -154,7 +154,7 @@
 			<ImageView android:id="@+id/__img___t35"
 				android:src="@drawable/__img___t35"
 				android:contentDescription="__img___t35"
-				 android:layout_marginStart="19dp"
+				android:layout_marginStart="19dp"
 				android:layout_marginTop="89dp"
 				android:layout_width="111dp"
 				android:layout_height="22dp" />
@@ -162,7 +162,7 @@
 			<ImageView android:id="@+id/__img___t34"
 				android:src="@drawable/__img___t34"
 				android:contentDescription="__img___t34"
-				 android:layout_marginStart="19dp"
+				android:layout_marginStart="19dp"
 				android:layout_marginTop="292dp"
 				android:layout_width="106dp"
 				android:layout_height="22dp" />
@@ -170,7 +170,7 @@
 			<ImageView android:id="@+id/bookmark5"
 				android:src="@drawable/bookmark5"
 				android:contentDescription="bookmark5"
-				 android:layout_marginStart="298dp"
+				android:layout_marginStart="298dp"
 				android:layout_marginTop="447dp"
 				android:layout_width="24dp"
 				android:layout_height="24dp" />
@@ -178,7 +178,7 @@
 			<ImageView android:id="@+id/bookmark4"
 				android:src="@drawable/bookmark4"
 				android:contentDescription="bookmark4"
-				 android:layout_marginStart="298dp"
+				android:layout_marginStart="298dp"
 				android:layout_marginTop="798dp"
 				android:layout_width="24dp"
 				android:layout_height="24dp" />
@@ -186,7 +186,7 @@
 			<ImageView android:id="@+id/bookmark3"
 				android:src="@drawable/bookmark3"
 				android:contentDescription="bookmark3"
-				 android:layout_marginStart="298dp"
+				android:layout_marginStart="298dp"
 				android:layout_marginTop="974dp"
 				android:layout_width="24dp"
 				android:layout_height="24dp" />
@@ -194,7 +194,7 @@
 			<ImageView android:id="@+id/bookmark2"
 				android:src="@drawable/bookmark2"
 				android:contentDescription="bookmark2"
-				 android:layout_marginStart="298dp"
+				android:layout_marginStart="298dp"
 				android:layout_marginTop="1152dp"
 				android:layout_width="24dp"
 				android:layout_height="24dp" />
@@ -202,7 +202,7 @@
 			<ImageView android:id="@+id/bookmark1"
 				android:src="@drawable/bookmark1"
 				android:contentDescription="bookmark1"
-				 android:layout_marginStart="298dp"
+				android:layout_marginStart="298dp"
 				android:layout_marginTop="447dp"
 				android:layout_width="24dp"
 				android:layout_height="24dp" />
@@ -216,7 +216,7 @@
 				android:layout_width="29dp"
 				android:layout_height="24dp"
 				android:text="@string/hometext_black_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/recipebooktext_black"
 				android:fontFamily="Noto Sans"
@@ -227,7 +227,7 @@
 				android:layout_width="62dp"
 				android:layout_height="24dp"
 				android:text="@string/recipebooktext_black_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/shoppinglisttext_black"
 				android:fontFamily="Noto Sans"
@@ -238,7 +238,7 @@
 				android:layout_width="73dp"
 				android:layout_height="24dp"
 				android:text="@string/shoppinglisttext_black_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/roulettetext_black"
 				android:fontFamily="Noto Sans"
@@ -249,7 +249,7 @@
 				android:layout_width="40dp"
 				android:layout_height="24dp"
 				android:text="@string/roulettetext_black_string"
-				 />
+				/>
 
 			<TextView android:id="@+id/mypagetext_black"
 				android:fontFamily="Noto Sans"
@@ -260,12 +260,12 @@
 				android:layout_width="40dp"
 				android:layout_height="24dp"
 				android:text="@string/mypagetext_black_string"
-				 />
+				/>
 
 			<ImageView android:id="@+id/homeicon_black"
 				android:src="@drawable/homeicon_black"
 				android:contentDescription="homeicon_black"
-				 android:layout_marginStart="19dp"
+				android:layout_marginStart="19dp"
 				android:layout_marginTop="583dp"
 				android:layout_width="35dp"
 				android:layout_height="35dp" />
@@ -273,7 +273,7 @@
 			<ImageView android:id="@+id/mypageicon_black"
 				android:src="@drawable/mypageicon_black"
 				android:contentDescription="mypageicon_black"
-				 android:layout_marginStart="302dp"
+				android:layout_marginStart="302dp"
 				android:layout_marginTop="583dp"
 				android:layout_width="34dp"
 				android:layout_height="34dp" />
@@ -281,7 +281,7 @@
 			<ImageView android:id="@+id/rouletteicon_black"
 				android:src="@drawable/rouletteicon_black"
 				android:contentDescription="rouletteicon_black"
-				 android:layout_marginStart="158dp"
+				android:layout_marginStart="158dp"
 				android:layout_marginTop="583dp"
 				android:layout_width="35dp"
 				android:layout_height="35dp" />
@@ -289,7 +289,7 @@
 			<ImageView android:id="@+id/shoppinglisticon_black"
 				android:src="@drawable/shoppinglisticon_black"
 				android:contentDescription="shoppinglisticon_black"
-				 android:layout_marginStart="232dp"
+				android:layout_marginStart="232dp"
 				android:layout_marginTop="583dp"
 				android:layout_width="35dp"
 				android:layout_height="35dp" />
@@ -297,7 +297,7 @@
 			<ImageView android:id="@+id/recipebookicon_black"
 				android:src="@drawable/recipebookicon_black"
 				android:contentDescription="recipebookicon_black"
-				 android:layout_marginStart="92dp"
+				android:layout_marginStart="92dp"
 				android:layout_marginTop="583dp"
 				android:layout_width="35dp"
 				android:layout_height="35dp" />
@@ -305,7 +305,7 @@
 			<ImageView android:id="@+id/vector_2"
 				android:src="@drawable/vector_2"
 				android:contentDescription="vector_2"
-				 android:layout_marginStart="132dp"
+				android:layout_marginStart="132dp"
 				android:layout_marginTop="227dp"
 				android:layout_width="9dp"
 				android:layout_height="9.99dp" />

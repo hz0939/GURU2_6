@@ -24,7 +24,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class shoppinglist_x_activity extends Activity {
+import com.example.guru2_9.R;
+
+	public class shoppinglist_x_activity extends Activity {
 
 	
 	private View _bg__shoppinglist_x;

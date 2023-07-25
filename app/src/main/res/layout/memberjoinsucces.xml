@@ -1,31 +1,31 @@
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
-	<!-- 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		memberjoinsucces
-	 *	@date 		Tuesday 25th of July 2023 02:01:13 AM
-	 *	@title 		Page 1
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.3.figma
-	 *
-	 */
-	-->
-	<ScrollView android:id="@+id/memberjoinsucces" 
-		android:layout_width="wrap_content" 
+	<!--
+    /*
+     *   This content is generated from the API File Info.
+     *   (Alt+Shift+Ctrl+I).
+     *
+     *   @desc
+     *   @file       memberjoinsucces
+     *   @date       Tuesday 25th of July 2023 02:01:13 AM
+     *   @title       Page 1
+     *   @author
+     *   @keywords
+     *   @generator    Export Kit v1.3.figma
+     *
+     */
+    -->
+	<ScrollView android:id="@+id/memberjoinsucces"
+		android:layout_width="wrap_content"
 		android:layout_height="match_parent" >
 
-		<RelativeLayout android:id="@+id/content_container" 
-			android:layout_width="wrap_content" 
+		<RelativeLayout android:id="@+id/content_container"
+			android:layout_width="wrap_content"
 			android:layout_height="wrap_content" >
 
 			<View   android:id="@+id/_bg__memberjoinsucces"
 				android:background="@drawable/_bg__memberjoinsucces_shape"
-				 android:layout_marginStart="0dp"
+				android:layout_marginStart="0dp"
 				android:layout_marginTop="0dp"
 				android:layout_width="360dp"
 				android:layout_height="640dp" />
@@ -33,7 +33,7 @@
 			<ImageView android:id="@+id/__img___character"
 				android:src="@drawable/__img___character"
 				android:contentDescription="__img___character"
-				 android:layout_marginStart="74dp"
+				android:layout_marginStart="74dp"
 				android:layout_marginTop="150dp"
 				android:layout_width="211dp"
 				android:layout_height="291dp" />
