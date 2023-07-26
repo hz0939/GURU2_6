@@ -11,10 +11,10 @@
 		android:label="page 1" >
 
 		<activity
-		android:name=".loginactivity"
-		android:configChanges="orientation|keyboardHidden|screenSize"
-		android:label="로그인 페이지"
-		android:exported="true"  >
+			android:name=".loginactivity"
+			android:configChanges="orientation|keyboardHidden|screenSize"
+			android:label="로그인 페이지"
+			android:exported="true"  >
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
@@ -31,8 +31,42 @@
 			android:label="Home"
 			android:exported="true" />
 
+		<activity
+			android:name=".mainpage_x_activity"
+			android:label="Main"
+			android:exported="true" />
+
+		<activity
+			android:name=".recipebook1_activity"
+			android:label="recipebook"
+			android:exported="true" />
+
+		<activity
+			android:name=".shoppinglist_xactivity"
+			android:label="shopping"
+			android:exported="true" />
+
+		<activity
+			android:name=".mypage_activity"
+			android:label="mypage"
+			android:exported="true" />
+
+		<activity
+			android:name=".foodrouletteactivity"
+			android:label="foodroulette"
+			android:exported="true" />
+
+		<activity
+			android:name=".memberjoinsuccesactivity"
+			android:label="회원가입 성공 페이지"
+			android:exported="true" />
+
+
+
+
+
+
 	</application>
 
 </manifest>
-	
-	
+
