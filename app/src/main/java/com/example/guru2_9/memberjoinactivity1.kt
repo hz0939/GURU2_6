@@ -11,6 +11,8 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
+
+
 class memberjoinactivity1 : AppCompatActivity() {
 
     //로그인, 회원가입 관리 -> firebase이용

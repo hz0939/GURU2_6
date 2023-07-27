@@ -43,10 +43,6 @@
 			android:label="recipebook"
 			android:exported="true" />
 
-		<activity
-			android:name=".recipebook2_xactivity"
-			android:label="recipebook2"
-			android:exported="true" />
 
 		<activity
 			android:name=".shoppinglist_xactivity"
@@ -129,27 +125,9 @@
 			android:exported="true" />
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	</application>
 
 </manifest>
+
+
 
