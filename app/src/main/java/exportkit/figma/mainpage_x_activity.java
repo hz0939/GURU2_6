@@ -107,8 +107,6 @@ import com.example.guru2_9.R;
 	
 		
 		//custom code goes here
-
-
 	
 	}
 }

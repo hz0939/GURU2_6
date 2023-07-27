@@ -2,7 +2,6 @@ package com.example.guru2_9
 
 import android.content.Intent
 import android.os.Bundle
-
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 
@@ -50,13 +49,4 @@ class mainpage_x_activity : AppCompatActivity() {
 
     }
 }
-
-
-
-
-
-
-
-
-
 
