@@ -92,11 +92,6 @@
            bookmark3 = (ImageView) findViewById(R.id.bookmark3);
            bookmark2 = (ImageView) findViewById(R.id.bookmark2);
            bookmark1 = (ImageView) findViewById(R.id.bookmark1);
-           hometext_black = (TextView) findViewById(R.id.hometext_black);
-           recipebooktext_black = (TextView) findViewById(R.id.recipebooktext_black);
-           shoppinglisttext_black = (TextView) findViewById(R.id.shoppinglisttext_black);
-           roulettetext_black = (TextView) findViewById(R.id.roulettetext_black);
-           mypagetext_black = (TextView) findViewById(R.id.mypagetext_black);
            homeicon_black = (ImageView) findViewById(R.id.homeicon_black);
            mypageicon_black = (ImageView) findViewById(R.id.mypageicon_black);
            rouletteicon_black = (ImageView) findViewById(R.id.rouletteicon_black);
