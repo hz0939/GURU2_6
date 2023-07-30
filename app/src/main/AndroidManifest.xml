@@ -3,8 +3,6 @@
 	xmlns:tools="http://schemas.android.com/tools"
 	package="com.example.guru2_9">
 
-	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
 
 	<uses-permission android:name="android.permission.INTERNET"/>
 
@@ -30,6 +28,10 @@
 			android:label="회원가입 페이지"
 			android:exported="true" />
 
+		<activity
+			android:name=".MainActivity"
+			android:label="Home"
+			android:exported="true" />
 
 		<activity
 			android:name=".mainpage_x_activity"
@@ -53,82 +55,86 @@
 			android:exported="true" />
 
 		<activity
-			android:name=".profileeditactivity"
-			android:label="profileedit"
-			android:exported="true" />
-
-		<activity
 			android:name=".foodrouletteactivity"
 			android:label="foodroulette"
 			android:exported="true" />
 
 		<activity
 			android:name=".memberjoinsuccesactivity"
-			android:label="회원가입 성공!"
+			android:label="회원가입 성공 페이지"
 			android:exported="true" />
 
 
 		<activity
 			android:name=".recipeactivity1"
-			android:label="recipe_milk"
+			android:label="레시피페이지1"
 			android:exported="true" />
 
 		<activity
 			android:name=".recipeactivity2"
-			android:label="recipe_cheese"
+			android:label="레시피페이지2"
 			android:exported="true" />
 
 		<activity
 			android:name=".recipeactivity3"
-			android:label="recipe_chicken"
+			android:label="레시피페이지3"
 			android:exported="true" />
 
 		<activity
 			android:name=".recipeactivity4"
-			android:label="recipe_meat"
+			android:label="레시피페이지4"
 			android:exported="true" />
 
 		<activity
 			android:name=".recipeactivity5"
-			android:label="recipe_avocado"
+			android:label="레시피페이지5"
 			android:exported="true" />
 
 		<activity
 			android:name=".recipeactivity6"
-			android:label="recipe_potato"
+			android:label="레시피페이지6"
 			android:exported="true" />
 
 		<activity
 			android:name=".recipeactivity7"
-			android:label="recipe_vegetable"
+			android:label="레시피페이지7"
 			android:exported="true" />
 
 		<activity
 			android:name=".recipeactivity8"
-			android:label="recipe_sweet potato"
+			android:label="레시피페이지8"
 			android:exported="true" />
-
 		<activity
 			android:name=".recipeactivity9"
-			android:label="recipe_cucumber"
+			android:label="레시피페이지9"
 			android:exported="true" />
 
 		<activity
 			android:name=".recipeactivity10"
-			android:label="recipe_egg"
+			android:label="레시피페이지10"
 			android:exported="true" />
 
 		<activity
 			android:name=".recipeactivity11"
-			android:label="recipe_mushroom"
+			android:label="레시피페이지11"
 			android:exported="true" />
 
 		<activity
 			android:name=".recipeactivity12"
-			android:label="recipe_apple"
+			android:label="레시피페이지12"
 			android:exported="true" />
+
+		<activity
+			android:name=".profileeditactivity"
+			android:label="프로필 편집"
+			android:exported="true" />
+
+
 
 
 	</application>
 
 </manifest>
+
+
+

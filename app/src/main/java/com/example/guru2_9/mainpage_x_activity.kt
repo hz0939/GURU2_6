@@ -12,6 +12,36 @@ class mainpage_x_activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.mainpage_x)
 
+
+        val sunnyImageView = findViewById<ImageView>(R.id.sunny)
+        sunnyImageView.setOnClickListener {
+            val recipeLinkUrl = "https://blog.naver.com/hz__00/223169307785"
+            val linkIntent = Intent(Intent.ACTION_VIEW, Uri.parse(recipeLinkUrl))
+            startActivity(linkIntent)
+        }
+
+        val rainyImageView = findViewById<ImageView>(R.id.rainy)
+        rainyImageView.setOnClickListener {
+            val recipeLinkUrl = "https://blog.naver.com/hz__00/223169310759"
+            val linkIntent = Intent(Intent.ACTION_VIEW, Uri.parse(recipeLinkUrl))
+            startActivity(linkIntent)
+        }
+
+        val coldImageView = findViewById<ImageView>(R.id.muffler)
+        coldImageView.setOnClickListener {
+            val recipeLinkUrl = "https://blog.naver.com/hz__00/223169311292"
+            val linkIntent = Intent(Intent.ACTION_VIEW, Uri.parse(recipeLinkUrl))
+            startActivity(linkIntent)
+        }
+
+        val snowImageView = findViewById<ImageView>(R.id.snow)
+        snowImageView.setOnClickListener {
+            val recipeLinkUrl = "https://blog.naver.com/hz__00/223169312307"
+            val linkIntent = Intent(Intent.ACTION_VIEW, Uri.parse(recipeLinkUrl))
+            startActivity(linkIntent)
+        }
+
+
         val thumb1ImageView = findViewById<ImageView>(R.id.thumbnailtop1_)
         thumb1ImageView.setOnClickListener {
             val recipeLinkUrl = "https://www.youtube.com/watch?v=iRzCgfhj5sA"
@@ -85,4 +115,3 @@ class mainpage_x_activity : AppCompatActivity() {
 
     }
 }
-

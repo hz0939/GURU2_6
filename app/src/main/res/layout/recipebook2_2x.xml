@@ -1,20 +1,20 @@
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
 	<!--
-     /*
-      *   This content is generated from the API File Info.
-      *   (Alt+Shift+Ctrl+I).
-      *
-      *   @desc
-      *   @file       recipebook2_x
-      *   @date       Tuesday 25th of July 2023 02:33:07 AM
-      *   @title       Page 1
-      *   @author
-      *   @keywords
-      *   @generator    Export Kit v1.3.figma
-      *
-      */
-     -->
+      /*
+       *   This content is generated from the API File Info.
+       *   (Alt+Shift+Ctrl+I).
+       *
+       *   @desc
+       *   @file       recipebook2_x
+       *   @date       Tuesday 25th of July 2023 02:33:07 AM
+       *   @title       Page 1
+       *   @author
+       *   @keywords
+       *   @generator    Export Kit v1.3.figma
+       *
+       */
+      -->
 	<ScrollView android:id="@+id/recipebook2_2x"
 		android:layout_width="wrap_content"
 		android:layout_height="match_parent" >
@@ -84,28 +84,65 @@
 				android:id="@+id/bookmark9"
 				android:layout_width="24dp"
 				android:layout_height="24dp"
-				android:layout_marginStart="330dp"
+				android:layout_marginStart="370dp"
 				android:layout_marginTop="250dp"
 				android:contentDescription="bookmark9"
-				android:src="@drawable/bookmark9" />
+				android:src="@drawable/bookmark8"
+				android:clickable="true"/>
 
 			<ImageView
 				android:id="@+id/bookmark8"
 				android:layout_width="24dp"
 				android:layout_height="24dp"
-				android:layout_marginStart="330dp"
+				android:layout_marginStart="370dp"
 				android:layout_marginTop="430dp"
 				android:contentDescription="bookmark8"
-				android:src="@drawable/bookmark8" />
+				android:src="@drawable/bookmark8"
+				android:clickable="true"/>
 
 			<ImageView
 				android:id="@+id/bookmark7"
 				android:layout_width="24dp"
 				android:layout_height="24dp"
-				android:layout_marginStart="330dp"
+				android:layout_marginStart="370dp"
 				android:layout_marginTop="610dp"
 				android:contentDescription="bookmark7"
-				android:src="@drawable/bookmark7" />
+				android:src="@drawable/bookmark8"
+				android:clickable="true"/>
+
+
+
+
+			<ImageView
+				android:id="@+id/filledbookmark1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="370dp"
+				android:layout_marginTop="250dp"
+				android:src="@drawable/bookmark7"
+				android:clickable="true"
+				android:visibility="invisible" />
+
+			<ImageView
+				android:id="@+id/filledbookmark2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="370dp"
+				android:layout_marginTop="430dp"
+				android:src="@drawable/bookmark7"
+				android:clickable="true"
+				android:visibility="invisible" />
+
+			<ImageView
+				android:id="@+id/filledbookmark3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="370dp"
+				android:layout_marginTop="610dp"
+				android:src="@drawable/bookmark7"
+				android:clickable="true"
+				android:visibility="invisible" />
+
 
 		</RelativeLayout>
 

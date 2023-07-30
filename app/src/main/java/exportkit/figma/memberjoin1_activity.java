@@ -63,8 +63,6 @@
            t13ttt = (TextView) findViewById(R.id.t13ttt);
            t12ttt = (TextView) findViewById(R.id.t12ttt);
            t11ttt = (TextView) findViewById(R.id.t11ttt);
-           t10ttt = (TextView) findViewById(R.id.t10ttt);
-           __img___nexticon1 = (ImageView) findViewById(R.id.__img___nexticon1);
            t9ttt = (TextView) findViewById(R.id.t9ttt);
            t8ttt = (TextView) findViewById(R.id.t8ttt);
            t7ttt = (TextView) findViewById(R.id.t7ttt);

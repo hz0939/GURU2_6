@@ -1,20 +1,20 @@
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
 	<!--
-      /*
-       *   This content is generated from the API File Info.
-       *   (Alt+Shift+Ctrl+I).
-       *
-       *   @desc
-       *   @file       mypage
-       *   @date       Tuesday 25th of July 2023 02:02:37 AM
-       *   @title       Page 1
-       *   @author
-       *   @keywords
-       *   @generator    Export Kit v1.3.figma
-       *
-       */
-      -->
+        /*
+         *   This content is generated from the API File Info.
+         *   (Alt+Shift+Ctrl+I).
+         *
+         *   @desc
+         *   @file       mypage
+         *   @date       Tuesday 25th of July 2023 02:02:37 AM
+         *   @title       Page 1
+         *   @author
+         *   @keywords
+         *   @generator    Export Kit v1.3.figma
+         *
+         */
+        -->
 	<ScrollView android:id="@+id/mypage"
 		android:layout_width="wrap_content"
 		android:layout_height="match_parent" >
@@ -39,18 +39,6 @@
 				android:layout_marginTop="-118dp"
 				android:background="@drawable/ellipse_3_shape" />
 
-
-			<TextView
-				android:id="@+id/bookmark_black"
-				android:layout_width="66dp"
-				android:layout_height="33dp"
-				android:layout_marginLeft="40dp"
-				android:layout_marginTop="268dp"
-				android:fontFamily="Noto Sans"
-				android:text="북마크"
-				android:textColor="@color/t52ttt_color"
-				android:textSize="16sp"
-				android:textStyle="bold" />
 
 			<TextView
 				android:id="@+id/profilename_black"
@@ -116,45 +104,29 @@
 				android:textSize="12sp"
 				android:textStyle="bold" />
 
-			<TextView android:id="@+id/logout_black"
-				android:fontFamily="Noto Sans"
-				android:textStyle="bold"
-				android:textSize="14sp"
-				android:textColor="@color/t52ttt_color"
-				android:layout_marginLeft="288dp"
-				android:layout_marginTop="666dp"
+			<TextView
+				android:id="@+id/logout_black"
 				android:layout_width="71dp"
 				android:layout_height="29dp"
+				android:layout_marginLeft="288dp"
+				android:layout_marginTop="510dp"
+				android:fontFamily="Noto Sans"
 				android:text="로그아웃"
-				/>
-
-			<TextView android:id="@+id/quit_black"
-				android:fontFamily="Noto Sans"
-				android:textStyle="bold"
-				android:textSize="14sp"
 				android:textColor="@color/t52ttt_color"
-				android:layout_marginLeft="288dp"
-				android:layout_marginTop="688dp"
+				android:textSize="14sp"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/quit_black"
 				android:layout_width="71dp"
 				android:layout_height="29dp"
+				android:layout_marginLeft="288dp"
+				android:layout_marginTop="540dp"
+				android:fontFamily="Noto Sans"
 				android:text="탈퇴하기"
-				/>
-
-			<View
-				android:id="@+id/rectangle_35"
-				android:layout_width="320dp"
-				android:layout_height="160dp"
-				android:layout_marginStart="40dp"
-				android:layout_marginTop="295dp"
-				android:background="@drawable/rectangle_35_shape" />
-
-			<View
-				android:id="@+id/rectangle_342"
-				android:layout_width="320dp"
-				android:layout_height="160dp"
-				android:layout_marginStart="40dp"
-				android:layout_marginTop="482dp"
-				android:background="@drawable/rectangle_342_shape" />
+				android:textColor="@color/t52ttt_color"
+				android:textSize="14sp"
+				android:textStyle="bold" />
 
 			<ImageView
 				android:id="@+id/myicon"
@@ -164,6 +136,15 @@
 				android:layout_marginTop="110dp"
 				android:contentDescription="myicon"
 				android:src="@drawable/myicon" />
+
+			<ImageView
+				android:id="@+id/yocipelogo1"
+				android:layout_width="208dp"
+				android:layout_height="190dp"
+				android:layout_marginStart="100dp"
+				android:layout_marginTop="320dp"
+				android:contentDescription="yocipelogo2"
+				android:src="@drawable/yocipelogo1" />
 
 		</RelativeLayout>
 

@@ -1,85 +1,154 @@
-/*
-    *   This content is generated from the API File Info.
-    *   (Alt+Shift+Ctrl+I).
-    *
-    *   @desc
-    *   @file       recipebook1
-    *   @date       Tuesday 25th of July 2023 02:02:03 AM
-    *   @title       Page 1
-    *   @author
-    *   @keywords
-    *   @generator    Export Kit v1.3.figma
-    *
-    */
+
 package com.example.guru2_9
 
-import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
+
 import android.widget.ImageView
-import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
-class recipebook1activity : Activity() {
-    private var _bg__recipebook1: View? = null
+class recipebook1activity : AppCompatActivity() {
 
-    private var backicon5: ImageView? = null
-    private var f12ttt: TextView? = null
-    private var f11ttt: TextView? = null
-    private var f10ttt: TextView? = null
-    private var f9ttt: TextView? = null
-    private var f8ttt: TextView? = null
-    private var f7ttt: TextView? = null
-    private var f6ttt: TextView? = null
-    private var f5ttt: TextView? = null
-    private var f4ttt: TextView? = null
-    private var f3ttt: TextView? = null
-    private var f2ttt: TextView? = null
-    private var f1ttt: TextView? = null
-    private var t41ttt: TextView? = null
-    private var __img___food12: ImageView? = null
-    private var __img___food11: ImageView? = null
-    private var __img___food10: ImageView? = null
-    private var __img___food9: ImageView? = null
-    private var __img___food8: ImageView? = null
-    private var __img___food7: ImageView? = null
-    private var __img___food6: ImageView? = null
-    private var __img___food5: ImageView? = null
-    private var __img___food4: ImageView? = null
-    private var __img___food3: ImageView? = null
-    private var __img___food2: ImageView? = null
-    private var __img___food1: ImageView? = null
-    public override fun onCreate(savedInstanceState: Bundle?) {
+    fun onBackIconClick(view: View) {
+        onBackPressed()
+    }
+
+    private var isBookmarkFilled = false
+
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.recipebook1)
-        _bg__recipebook1 = findViewById(R.id._bg__recipebook1) as View
-        backicon5 = findViewById<View>(R.id.backicon5) as ImageView
-        f12ttt = findViewById<View>(R.id.f12ttt) as TextView
-        f11ttt = findViewById<View>(R.id.f11ttt) as TextView
-        f10ttt = findViewById<View>(R.id.f10ttt) as TextView
-        f9ttt = findViewById<View>(R.id.f9ttt) as TextView
-        f8ttt = findViewById<View>(R.id.f8ttt) as TextView
-        f7ttt = findViewById<View>(R.id.f7ttt) as TextView
-        f6ttt = findViewById<View>(R.id.f6ttt) as TextView
-        f5ttt = findViewById<View>(R.id.f5ttt) as TextView
-        f4ttt = findViewById<View>(R.id.f4ttt) as TextView
-        f3ttt = findViewById<View>(R.id.f3ttt) as TextView
-        f2ttt = findViewById<View>(R.id.f2ttt) as TextView
-        f1ttt = findViewById<View>(R.id.f1ttt) as TextView
-        t41ttt = findViewById<View>(R.id.t41ttt) as TextView
-        __img___food12 = findViewById<View>(R.id.__img___food12) as ImageView
-        __img___food11 = findViewById<View>(R.id.__img___food11) as ImageView
-        __img___food10 = findViewById<View>(R.id.__img___food10) as ImageView
-        __img___food9 = findViewById<View>(R.id.__img___food9) as ImageView
-        __img___food8 = findViewById<View>(R.id.__img___food8) as ImageView
-        __img___food7 = findViewById<View>(R.id.__img___food7) as ImageView
-        __img___food6 = findViewById<View>(R.id.__img___food6) as ImageView
-        __img___food5 = findViewById<View>(R.id.__img___food5) as ImageView
-        __img___food4 = findViewById<View>(R.id.__img___food4) as ImageView
-        __img___food3 = findViewById<View>(R.id.__img___food3) as ImageView
-        __img___food2 = findViewById<View>(R.id.__img___food2) as ImageView
-        __img___food1 = findViewById<View>(R.id.__img___food1) as ImageView
+
+        // 이미지뷰를 찾아서 클릭 리스너 설정
+        val iconImageView1 = findViewById<ImageView>(R.id.homeicon_black3)
+        iconImageView1.setOnClickListener {
+            // 클릭 이벤트가 발생했을 때 실행될 코드
+            // 다른 액티비티로 전환하는 코드 작성
+            val intent = Intent(this, mainpage_x_activity::class.java)
+            startActivity(intent)
+        }
+
+        val iconImageView2: ImageView = findViewById<ImageView>(R.id.recipebookicon_black3)
+        iconImageView2.setOnClickListener {
+            val intent = Intent(this, recipebook1activity::class.java)
+            startActivity(intent)
+        }
+
+        val iconImageView3: ImageView = findViewById<ImageView>(R.id.shoppinglisticon_black3)
+        iconImageView3.setOnClickListener {
+            val intent = Intent(this, shoppinglist_xactivity::class.java)
+            startActivity(intent)
+        }
+
+        val iconImageView4: ImageView = findViewById<ImageView>(R.id.mypageicon_black3)
+        iconImageView4.setOnClickListener {
+            val intent = Intent(this, mypage_activity::class.java)
+            startActivity(intent)
+        }
+
+        val iconImageView5: ImageView = findViewById<ImageView>(R.id.rouletteicon_black3)
+        iconImageView5.setOnClickListener {
+            val intent = Intent(this, foodrouletteactivity::class.java)
+            startActivity(intent)
+        }
 
 
-        //custom code goes here
+
+        // 이미지뷰를 찾아서 클릭 리스너 설정
+        val categoryImageView1 = findViewById<ImageView>(R.id.__img___food1)
+        categoryImageView1.setOnClickListener {
+            // 클릭 이벤트
+            // 다른 액티비티로 전환
+            val intent = Intent(this, recipeactivity1::class.java)
+            intent.putExtra("category", "Category 1")
+            startActivity(intent)
+        }
+
+        val categoryImageView2 = findViewById<ImageView>(R.id.__img___food2)
+        categoryImageView2.setOnClickListener {
+            val intent = Intent(this, recipeactivity2::class.java)
+            intent.putExtra("category", "Category 2")
+            startActivity(intent)
+        }
+
+        val categoryImageView3 = findViewById<ImageView>(R.id.__img___food3)
+        categoryImageView3.setOnClickListener {
+            val intent = Intent(this, recipeactivity3::class.java)
+            intent.putExtra("category", "Category 3")
+            startActivity(intent)
+        }
+
+        val categoryImageView4 = findViewById<ImageView>(R.id.__img___food4)
+        categoryImageView4.setOnClickListener {
+            val intent = Intent(this, recipeactivity4::class.java)
+            intent.putExtra("category", "Category 4")
+            startActivity(intent)
+        }
+
+        val categoryImageView5 = findViewById<ImageView>(R.id.__img___food5)
+        categoryImageView5.setOnClickListener {
+            val intent = Intent(this, recipeactivity5::class.java)
+            intent.putExtra("category", "Category 5")
+            startActivity(intent)
+        }
+
+        val categoryImageView6 = findViewById<ImageView>(R.id.__img___food6)
+        categoryImageView6.setOnClickListener {
+            val intent = Intent(this, recipeactivity6::class.java)
+            intent.putExtra("category", "Category 6")
+            startActivity(intent)
+        }
+
+        val categoryImageView7 = findViewById<ImageView>(R.id.__img___food7)
+        categoryImageView7.setOnClickListener {
+            val intent = Intent(this, recipeactivity7::class.java)
+            intent.putExtra("category", "Category 7")
+            startActivity(intent)
+        }
+
+        val categoryImageView8 = findViewById<ImageView>(R.id.__img___food8)
+        categoryImageView8.setOnClickListener {
+            val intent = Intent(this, recipeactivity8::class.java)
+            intent.putExtra("category", "Category 8")
+            startActivity(intent)
+        }
+
+        val categoryImageView9 = findViewById<ImageView>(R.id.__img___food9)
+        categoryImageView9.setOnClickListener {
+            val intent = Intent(this, recipeactivity9::class.java)
+            intent.putExtra("category", "Category 9")
+            startActivity(intent)
+        }
+
+        val categoryImageView10 = findViewById<ImageView>(R.id.__img___food10)
+        categoryImageView10.setOnClickListener {
+            val intent = Intent(this, recipeactivity10::class.java)
+            intent.putExtra("category", "Category 10")
+            startActivity(intent)
+        }
+
+        val categoryImageView11 = findViewById<ImageView>(R.id.__img___food11)
+        categoryImageView11.setOnClickListener {
+            val intent = Intent(this, recipeactivity11::class.java)
+            intent.putExtra("category", "Category 11")
+            startActivity(intent)
+        }
+
+        val categoryImageView12 = findViewById<ImageView>(R.id.__img___food12)
+        categoryImageView12.setOnClickListener {
+            val intent = Intent(this, recipeactivity12::class.java)
+            intent.putExtra("category", "Category 12")
+            startActivity(intent)
+        }
+
+
+
+
+
+
+
+
+
     }
 }
