@@ -51,15 +51,6 @@ class mypage_activity : AppCompatActivity() {
             })
         }
 
-        // SharedPreferences에서 저장된 사용자 이름 불러오기
-        val userName = getUserNameFromSharedPreferences()
-        if (!userName.isNullOrEmpty()) {
-            val helloText = findViewById<TextView>(R.id.hello_my)
-            helloText.text = "$userName 님 안녕하세요!"
-        }
-
-        // 나머지 코드는 그대로 유지합니다...
-
         //auth 변수 초기화(필수)
         auth = FirebaseAuth.getInstance()
 
