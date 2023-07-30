@@ -63,8 +63,7 @@
 
            rectangle_34 = (View) findViewById(R.id.rectangle_34);
 
-           rectangle_35 = (View) findViewById(R.id.rectangle_35);
-           rectangle_342 = (View) findViewById(R.id.rectangle_342);
+
            myicon = (ImageView) findViewById(R.id.myicon);
 
 
