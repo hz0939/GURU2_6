@@ -14,8 +14,6 @@ class recipebook1activity : AppCompatActivity() {
         onBackPressed()
     }
 
-    private var isBookmarkFilled = false
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.recipebook1)
@@ -141,9 +139,6 @@ class recipebook1activity : AppCompatActivity() {
             intent.putExtra("category", "Category 12")
             startActivity(intent)
         }
-
-
-
 
 
 

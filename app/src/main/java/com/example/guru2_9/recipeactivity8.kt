@@ -15,8 +15,6 @@ class recipeactivity8 : AppCompatActivity() {
         onBackPressed()
     }
 
-    private var isBookmarkFilled = false
-
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,7 +22,7 @@ class recipeactivity8 : AppCompatActivity() {
         setContentView(R.layout.recipebook2_8x)
 
         val sweetImageView = findViewById<ImageView>(R.id.sweet1)
-        sweetImageView.setOnClickListener {
+       sweetImageView.setOnClickListener {
             val recipeLinkUrl = "https://blog.naver.com/hz__00/223167205569"
             val linkIntent = Intent(Intent.ACTION_VIEW, Uri.parse(recipeLinkUrl))
             startActivity(linkIntent)
@@ -44,39 +42,9 @@ class recipeactivity8 : AppCompatActivity() {
             startActivity(linkIntent)
         }
 
-        val bookmarkIcon1 = findViewById<ImageView>(R.id.bookmark9)
-        bookmarkIcon1.setOnClickListener {
-            isBookmarkFilled = !isBookmarkFilled
-
-            if (isBookmarkFilled) {
-                bookmarkIcon1.setImageResource(R.drawable.bookmark7)
-            } else {
-                bookmarkIcon1.setImageResource(R.drawable.bookmark8)
-            }
-        }
-
-        val bookmarkIcon2 = findViewById<ImageView>(R.id.bookmark8)
-        bookmarkIcon2.setOnClickListener {
-            isBookmarkFilled = !isBookmarkFilled
-
-            if (isBookmarkFilled) {
-                bookmarkIcon2.setImageResource(R.drawable.bookmark7)
-            } else {
-                bookmarkIcon2.setImageResource(R.drawable.bookmark8)
-            }
-        }
-
-        val bookmarkIcon3 = findViewById<ImageView>(R.id.bookmark7)
-        bookmarkIcon3.setOnClickListener {
-            isBookmarkFilled = !isBookmarkFilled
-
-            if (isBookmarkFilled) {
-                bookmarkIcon3.setImageResource(R.drawable.bookmark7)
-            } else {
-                bookmarkIcon3.setImageResource(R.drawable.bookmark8)
-            }
-        }
-
     }
 }
+
+
+
 

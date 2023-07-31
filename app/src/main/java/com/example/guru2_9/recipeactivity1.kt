@@ -1,93 +1,148 @@
 package com.example.guru2_9
-import android.annotation.SuppressLint
+
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.view.View
 
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 
-
 class recipeactivity1 : AppCompatActivity() {
 
     fun onBackIconClick(view: View) {
-        onBackPressed() // 뒤로가기
-
+        onBackPressed()
     }
-    private var isBookmarkFilled = false //초기값은 false로, 북마크로 지정되지 않은 상태
-
-
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.recipebook2_1x)
+        setContentView(R.layout.recipebook1)
 
-        val milk1ImageView = findViewById<ImageView>(R.id.milk1)
-        milk1ImageView.setOnClickListener {
-            // 레시피 링크로 이동하는 코드
-            val recipeLinkUrl = "https://blog.naver.com/hz__00/223167189856"
-            val linkIntent = Intent(Intent.ACTION_VIEW, Uri.parse(recipeLinkUrl))
-            startActivity(linkIntent)
+
+
+        // 이미지뷰를 찾아서 클릭 리스너 설정
+        val categoryImageView1 = findViewById<ImageView>(R.id.__img___food1)
+        categoryImageView1.setOnClickListener {
+            // 클릭 이벤트
+            // 다른 액티비티로 전환
+            val intent = Intent(this, recipeactivity1::class.java)
+            intent.putExtra("category", "Category 1")
+            startActivity(intent)
         }
 
-        val milk2ImageView = findViewById<ImageView>(R.id.milk2)
-        milk2ImageView.setOnClickListener {
-            val recipeLinkUrl = "https://blog.naver.com/hz__00/223167189498"
-            val linkIntent = Intent(Intent.ACTION_VIEW, Uri.parse(recipeLinkUrl))
-            startActivity(linkIntent)
+        val categoryImageView2 = findViewById<ImageView>(R.id.__img___food2)
+        categoryImageView2.setOnClickListener {
+            val intent = Intent(this, recipeactivity2::class.java)
+            intent.putExtra("category", "Category 2")
+            startActivity(intent)
         }
 
-        val milk3ImageView = findViewById<ImageView>(R.id.milk3)
-        milk3ImageView.setOnClickListener {
-            val recipeLinkUrl = "https://blog.naver.com/hz__00/223167189263"
-            val linkIntent = Intent(Intent.ACTION_VIEW, Uri.parse(recipeLinkUrl))
-            startActivity(linkIntent)
+        val categoryImageView3 = findViewById<ImageView>(R.id.__img___food3)
+        categoryImageView3.setOnClickListener {
+            val intent = Intent(this, recipeactivity3::class.java)
+            intent.putExtra("category", "Category 3")
+            startActivity(intent)
+        }
+
+        val categoryImageView4 = findViewById<ImageView>(R.id.__img___food4)
+        categoryImageView4.setOnClickListener {
+            val intent = Intent(this, recipeactivity4::class.java)
+            intent.putExtra("category", "Category 4")
+            startActivity(intent)
+        }
+
+        val categoryImageView5 = findViewById<ImageView>(R.id.__img___food5)
+        categoryImageView5.setOnClickListener {
+            val intent = Intent(this, recipeactivity5::class.java)
+            intent.putExtra("category", "Category 5")
+            startActivity(intent)
+        }
+
+        val categoryImageView6 = findViewById<ImageView>(R.id.__img___food6)
+        categoryImageView6.setOnClickListener {
+            val intent = Intent(this, recipeactivity6::class.java)
+            intent.putExtra("category", "Category 6")
+            startActivity(intent)
+        }
+
+        val categoryImageView7 = findViewById<ImageView>(R.id.__img___food7)
+        categoryImageView7.setOnClickListener {
+            val intent = Intent(this, recipeactivity7::class.java)
+            intent.putExtra("category", "Category 7")
+            startActivity(intent)
+        }
+
+        val categoryImageView8 = findViewById<ImageView>(R.id.__img___food8)
+        categoryImageView8.setOnClickListener {
+            val intent = Intent(this, recipeactivity8::class.java)
+            intent.putExtra("category", "Category 8")
+            startActivity(intent)
+        }
+
+        val categoryImageView9 = findViewById<ImageView>(R.id.__img___food9)
+        categoryImageView9.setOnClickListener {
+            val intent = Intent(this, recipeactivity9::class.java)
+            intent.putExtra("category", "Category 9")
+            startActivity(intent)
+        }
+
+        val categoryImageView10 = findViewById<ImageView>(R.id.__img___food10)
+        categoryImageView10.setOnClickListener {
+            val intent = Intent(this, recipeactivity10::class.java)
+            intent.putExtra("category", "Category 10")
+            startActivity(intent)
+        }
+
+        val categoryImageView11 = findViewById<ImageView>(R.id.__img___food11)
+        categoryImageView11.setOnClickListener {
+            val intent = Intent(this, recipeactivity11::class.java)
+            intent.putExtra("category", "Category 11")
+            startActivity(intent)
+        }
+
+        val categoryImageView12 = findViewById<ImageView>(R.id.__img___food12)
+        categoryImageView12.setOnClickListener {
+            val intent = Intent(this, recipeactivity12::class.java)
+            intent.putExtra("category", "Category 12")
+            startActivity(intent)
         }
 
 
-
-
-        val bookmarkIcon1 = findViewById<ImageView>(R.id.bookmark9)
-        bookmarkIcon1.setOnClickListener {
-            isBookmarkFilled = !isBookmarkFilled
-
-            if (isBookmarkFilled) {
-                bookmarkIcon1.setImageResource(R.drawable.bookmark7) //비어있는 북마크 아이콘으로 변경
-            } else {
-                bookmarkIcon1.setImageResource(R.drawable.bookmark8) // 차있는 북마크 아이콘으로 변경
-            }
+        // 이미지뷰를 찾아서 클릭 리스너 설정
+        val iconImageView1 = findViewById<ImageView>(R.id.homeicon_black3)
+        iconImageView1.setOnClickListener {
+            // 클릭 이벤트가 발생했을 때 실행될 코드
+            // 다른 액티비티로 전환하는 코드 작성
+            val intent = Intent(this, mainpage_x_activity::class.java)
+            startActivity(intent)
         }
 
-        val bookmarkIcon2 = findViewById<ImageView>(R.id.bookmark8)
-        bookmarkIcon2.setOnClickListener {
-            isBookmarkFilled = !isBookmarkFilled
-
-            if (isBookmarkFilled) {  //변수의 값에 따라서 채워진 아이콘과 빈 아이콘을 번갈아 보여줌
-                bookmarkIcon2.setImageResource(R.drawable.bookmark7)
-            } else {
-                bookmarkIcon2.setImageResource(R.drawable.bookmark8)
-            }
+        val iconImageView2: ImageView = findViewById<ImageView>(R.id.recipebookicon_black3)
+        iconImageView2.setOnClickListener {
+            val intent = Intent(this, recipebook1activity::class.java)
+            startActivity(intent)
         }
 
-        val bookmarkIcon3 = findViewById<ImageView>(R.id.bookmark7)
-        bookmarkIcon3.setOnClickListener {
-            isBookmarkFilled = !isBookmarkFilled
-
-            if (isBookmarkFilled) {
-                bookmarkIcon3.setImageResource(R.drawable.bookmark7)
-            } else {
-                bookmarkIcon3.setImageResource(R.drawable.bookmark8)
-            }
+        val iconImageView3: ImageView = findViewById<ImageView>(R.id.shoppinglisticon_black3)
+        iconImageView3.setOnClickListener {
+            val intent = Intent(this, shoppinglist_xactivity::class.java)
+            startActivity(intent)
         }
 
+        val iconImageView4: ImageView = findViewById<ImageView>(R.id.mypageicon_black3)
+        iconImageView4.setOnClickListener {
+            val intent = Intent(this, mypage_activity::class.java)
+            startActivity(intent)
+        }
+
+        val iconImageView5: ImageView = findViewById<ImageView>(R.id.rouletteicon_black3)
+        iconImageView5.setOnClickListener {
+            val intent = Intent(this, foodrouletteactivity::class.java)
+            startActivity(intent)
+        }
 
     }
-
-
-
-
 }
+
+
 
 

@@ -115,3 +115,4 @@ class mainpage_x_activity : AppCompatActivity() {
 
     }
 }
+
